@@ -22,6 +22,7 @@ public class MultiCat implements Listener {
         if (le.getType() == EntityType.OCELOT) {
             for (x=0;x<=10;) {
                 w.spawnEntity(loc, EntityType.OCELOT);
+                x++
             }
         }
     }
